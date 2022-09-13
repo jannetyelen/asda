@@ -15,7 +15,7 @@ jobs:
         run: sudo apt-get install -y chromium-browser ffmpeg  
        # Need to fetch reqs if needed
       - name: Installing all necessary packages
-        run: pip install chromedriver-autoinstaller selenium webdriver-manager pyvirtualdisplay mailtm ibm_cloud_sdk_core ibm_watson imap_tools mimesis TwoCaptcha undetected_chromedriver==3.1.5.post4 urlextract pydub SpeechRecognition
+        run: pip install chromedriver-autoinstaller selenium webdriver-manager pyvirtualdisplay mailtm vosk ibm_cloud_sdk_core ibm_watson imap_tools mimesis TwoCaptcha undetected_chromedriver==3.1.5.post4 urlextract pydub SpeechRecognition
       - name: Install xvfb
         run: sudo apt-get install xvfb
 
